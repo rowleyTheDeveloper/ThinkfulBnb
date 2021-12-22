@@ -107,10 +107,9 @@ form label {
   font-weight: bold;
 }
 
-.vacaform {
+form div {
   display: flex;
-  justify-content: space-around;
-  padding: 0 7px;
+  justify-content: space-between;
 }
 
 form select,
@@ -165,27 +164,27 @@ footer p {
     text-decoration: none;
   }
 
-  .vacaform {
-    display: flex;
-    flex-direction: column;
-  }
+form div {
+  flex-direction: column;
+}
 
-  form {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: baseline;
-  }
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
   .group {
-    display: flex;
     flex-direction: row;
     align-items: center;
   }
 
   .ideas-top {
     display: flex;
+  }
+
+  form button {
+      flex: 1;
   }
 
   .ideas-bot {
