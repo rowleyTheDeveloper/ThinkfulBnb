@@ -168,17 +168,6 @@ form div {
   flex-direction: column;
 }
 
-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-  .group {
-    flex-direction: row;
-    align-items: center;
-  }
-
   .ideas-top {
     display: flex;
   }
@@ -190,4 +179,66 @@ form {
   .ideas-bot {
     display: flex;
   }
+  .item button,
+  .item input,
+  .item label,
+  .item select {
+    display: flex;
+    width: 100%;
+  }
+
+  .group {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .item {
+    flex: 1;
+    margin: 15px;
+  }
+
+  .item-double {
+    flex: 2;
+    margin: 15px;
+  }
+
+  p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  form {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 10px 10px 10px;
+  }
+
+  form div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form label {
+    padding-bottom: 15px;
+    font-weight: bold;
+  }
+
+  .form-input {
+    padding-right: 15px;
+    justify-content: center;
+  }
+
+  button {
+    justify-content: center;
+    margin-top: 5px;
+  }
+  form label {
+    font-weight: bold;
+    padding-right: 10px;
+  }
+  
 }
